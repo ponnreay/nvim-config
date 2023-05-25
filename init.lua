@@ -24,6 +24,9 @@ vim.call('plug#begin', PATH)
     -- Snippets
     Plug 'L3MON4D3/LuaSnip'
     Plug 'rafamadriz/friendly-snippets'
+    
+    Plug 'nvim-tree/nvim-tree.lua'
+    Plug 'nvim-tree/nvim-web-devicons'
 vim.call('plug#end')
 
 vim.opt.smartindent = true
@@ -43,6 +46,11 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = '120'
 
 vim.g.mapleader = " "
+
+
+-- disable netrw at the very start of your init.lua
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 
 require('ponnreay')
 -- Theme tokyonight
