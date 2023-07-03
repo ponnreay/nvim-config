@@ -1,6 +1,6 @@
 
 local Plug = vim.fn['plug#']
-local PATH = '/Users/ponnreay/.config/nvim-data'
+local PATH = '~/.config/nvim-data'
 
 vim.call('plug#begin', PATH)
     Plug 'folke/tokyonight.nvim' 
