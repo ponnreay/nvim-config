@@ -2,9 +2,11 @@
 
 1 - install neovim
 
-https://github.com/neovim/neovim/wiki/Installing-Neovim
+Find latest version here: https://github.com/neovim/neovim/releases
 ```bash
-curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-macos.tar.gz\ntar xzf nvim-macos.tar.gz
+curl -LO https://github.com/neovim/neovim/releases/download/v0.10.0/nvim-macos-x86_64.tar.gz
+xattr -c ./nvim-macos-x86_64.tar.gz
+tar xzf nvim-macos.tar.gz
 ```
 
 2 - clone configuartion:
